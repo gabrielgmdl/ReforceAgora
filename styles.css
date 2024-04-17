@@ -1,0 +1,50 @@
+body {
+	margin: auto;
+	text-align: center;
+	background-color: cornsilk;
+}
+
+header {
+	background-color: white;
+}
+
+nav {
+	display: inline-block;
+    text-align: justify;
+}
+
+section {
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+}
+
+.divisor {
+    display: inline-block;
+    text-align: justify;
+}
+
+#whats {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 150px;
+}
+
+#insta {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 50px;
+}
+
+#andreza {
+    width: 230px;
+}
+
+#izadora {
+    width: 160px;
+}
+
+a {
+    color: black;
+}
