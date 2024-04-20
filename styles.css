@@ -1,6 +1,6 @@
 body {
 	margin: auto;
-	text-align: center;
+    text-align: center;
 	background-color: cornsilk;
 }
 
@@ -18,33 +18,62 @@ section {
     margin-bottom: 7.5%;
 }
 
+a {
+    color: black;
+}
+
+.container {
+    max-width: 100%;
+}
+
 .divisor {
     display: inline-block;
     text-align: justify;
 }
 
+.row {
+    margin-top: 10%;
+}
+
+.aside {
+    margin-bottom: 20%;
+}
+
+.footer {
+    margin-top: 20%;
+}
+
+#rodape {
+    margin-top: 10%
+}
+
 #whats {
     position: fixed;
-    bottom: 15px;
+    bottom: 35px;
     right: 15px;
     width: 150px;
 }
 
 #insta {
     position: fixed;
-    bottom: 30px;
-    left: 30px;
+    bottom: 55px;
+    left: 35px;
     width: 50px;
 }
 
-#andreza {
-    width: 230px;
+#andreza, #izadora {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
-#izadora {
-    width: 160px;
+#descriptions {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
-a {
-    color: black;
+#descriptions.show {
+    opacity: 1;
+    margin-top: 25px;
+    background-color: snow;
 }
